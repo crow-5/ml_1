@@ -23,3 +23,4 @@ class Mydataset(Dataset):
 root_dir = r"D:\数据\练习数据\hymenoptera_data\train"
 label_dir = "ants"
 ant1 = Mydataset(root_dir, label_dir)
+image, label = ant1[0]
